@@ -1,0 +1,51 @@
+/*
+Dillon Bastan, 2015. 
+This is the stylesheet for the header and footer for all pages.
+*/
+
+
+/*For all*/
+.em {
+	padding: 0;
+	margin: 0;
+	font-style: normal;
+	text-decoration: underline;
+}
+body {
+	background-color: #333;
+}
+/**/
+
+
+/*HEADER*/
+#headerWrapper {
+	/*
+	margin: 0 5% 0 5%;
+	padding: 0 20px 0 20px;
+	*/
+}
+
+header {
+
+}
+
+/**/
+
+
+/*FOOTER*/
+#footerWrapper {
+	/*
+	margin: 0 5% 0 5%;
+	padding: 0 20px 0 20px;
+	*/
+}
+
+footer {
+	/*
+	border-top-style: solid;
+	border-width: 1px;
+	border-color: #666;
+	*/
+}
+
+/**/
