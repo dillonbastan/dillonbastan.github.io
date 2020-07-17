@@ -3,7 +3,7 @@ Dillon Bastan, 2019.
 This is the JavaScript for managing the home page
 */
 
-window.location.href = "http://www.instagram.com/dillonbastan";
+//window.location.href = "http://www.instagram.com/dillonbastan";
 
 
 /*
