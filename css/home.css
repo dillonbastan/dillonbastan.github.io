@@ -11,4 +11,14 @@ This is the stylesheet for the main content in the home page.
    list-style-type: none;
 }
 
+a {
+   font-size: small;
+   line-height: 150%;
+}
+
+b {
+   font-size: large;
+   line-height: 200%;
+}
+
 /**/
