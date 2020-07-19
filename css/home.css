@@ -11,14 +11,25 @@ This is the stylesheet for the main content in the home page.
    list-style-type: none;
 }
 
+.projectLinks {
+   float: left;;
+   width: 15%;
+}
+
 a {
    font-size: small;
    line-height: 150%;
 }
 
 b {
-   font-size: 110%;
-   line-height: 180%;
+   font-size: 150%;
+   line-height: 200%;
+}
+
+.side {
+	position: absolute;
+    top: 0;
+    left: 0;
 }
 
 /**/
