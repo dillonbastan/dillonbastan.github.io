@@ -11,9 +11,8 @@ This is the stylesheet for the main content in the home page.
    list-style-type: none;
 }
 
-.projectLinks {
-   float: left;;
-   width: 15%;
+.gprojectLinks {
+   float: left;
 }
 
 a {
@@ -21,15 +20,78 @@ a {
    line-height: 150%;
 }
 
+a:link {
+  background-color: white;
+}
+
 b {
    font-size: 150%;
    line-height: 200%;
 }
 
-.side {
-	position: absolute;
-    top: 0;
-    left: 0;
+.fakead {
+}
+
+.fakeadcont {
+  top: -60px;
+  position: relative;
+}
+
+#side1 {
+  overflow: hidden;
+  float: right;
+  margin-left: 15%;
+  position: absolute;
+  width: 50%;
+  z-index: -100;
+}
+#side1 img {
+  width: 20%;
+}
+
+#side2 {
+  overflow: hidden;
+  margin-left: 35%;
+  position: absolute;
+  width: 100%;
+  z-index: -100;
+  top: 20%;
+}
+#side2 img {
+  width: 40%;
+}
+
+#side3 {
+  overflow: hidden;
+  margin-left: 5%;
+  position: absolute;
+  width: 100%;
+  z-index: -100;
+}
+#side3 img {
+  width: 70%;
+}
+
+#side4 {
+  overflow: hidden;
+  margin-left: 30%;
+  position: absolute;
+  width: 100%;
+  z-index: -100;
+}
+#side4 img {
+  width: 25%;
+}
+
+#side5 {
+  overflow: hidden;
+  margin-left: 10%;
+  position: absolute;
+  width: 10%;
+  z-index: -100;
+}
+#side5 img {
+  width: 15%;
 }
 
 /**/
