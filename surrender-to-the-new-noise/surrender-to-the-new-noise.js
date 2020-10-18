@@ -5,7 +5,7 @@ var actionInit = false;
 var nactions = 4;
 var minDelay = 5000; //5000
 var maxDelay = 240000; //240000
-var delaySlope = 2;
+var delaySlope = 1.7;
 var delayRange = maxDelay - minDelay;
 var actionLoop;
 var nimg = 23;
