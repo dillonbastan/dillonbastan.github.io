@@ -16,7 +16,19 @@ $(document).ready( function() {
 
 
 
-$(window).bind('mousewheel',function() {
+//Scrolling mobile
+$(document).on('touchmove', function() {
+	dynamicAdView();
+});
+
+//Scrolling browser
+$(window).bind('mousewheel', function() {
+	dynamicAdView();
+});
+
+
+//
+function dynamicAdView() {
 	//Start scroling
 	if (!scrollLock) {
 		$(".fakead").css({ "display": "block" });
@@ -27,4 +39,4 @@ $(window).bind('mousewheel',function() {
 	        scrollLock = false;
 	    }, stopScrollThresh);
 	}
-});
+}
