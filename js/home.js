@@ -18,7 +18,7 @@ $(document).ready( function() {
 
 //Scrolling mobile
 $(document).on('touchmove', function() {
-	dynamicAdView();
+	//dynamicAdView();
 });
 
 //Scrolling browser
